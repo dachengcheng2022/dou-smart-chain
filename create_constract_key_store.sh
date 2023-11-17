@@ -1,0 +1,2 @@
+./deposit --language=English --non_interactive existing-mnemonic --folder config/ --mnemonic="drink grab giant fruit tell night fiction raven nominee swing side gauge soccer ecology caution virtual bomb knee wife flower produce can negative fiction" --keystore_password=12345678 --chain="mainnet" --validator_start_index=0 --num_validators=10 --devnet_chain_setting=config/config_deposit.yml
+./validator  accounts import --wallet-dir=config   --keys-dir=config/validator_keys --wallet-password-file=config/wallet_password.txt --account-password-file=config/account_password.txt
