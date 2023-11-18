@@ -15,5 +15,5 @@
 --jwt-secret=config/jwtsecret  \
 --verbosity=debug \
 --p2p-local-ip=127.0.0.1 \
---p2p-host-ip=127.0.0.1 \
+--p2p-host-ip=190.92.198.117 \
 --p2p-static-id
