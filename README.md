@@ -2,9 +2,12 @@
 ## 项目说明
 ### 启动
 #项目初始化
-- 初始化genesis.json  genesis.szz 创世数据. (放到github上)
-  - 创世的eth账号和私钥。
-  - 创世默认validator数目(没有真正去质押) 21个，产生的收益直接销毁(可以配置不销毁)，用于后续质押产生块。
+- 初始化genesis.json  genesis.szz 创世数据. 
+  - 老板提供地址修改genesis.json 的账号地址和合约地址
+  - 生成默认的3个validator的质押合约和账号及密码。create_constract_key_store.sh
+  - 初始化beacon 和geth 。clean_and_init.sh
+  - 启动geth。 (TODO 固定名称)
+  - 启动beacon。(TODO 固定名称)
   - fixture_test.go 生成enr私钥
 - 启动geth, beannode，validator 各一个作为初始节点 (启动指定各种私钥)    docker_genesis_init_compose 启动1次
 

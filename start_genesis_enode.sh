@@ -1,0 +1,1 @@
+./geth --datadir data --http --http.api=net,web3,eth,debug,engine,admin --http.addr=0.0.0.0 --syncmode=full --networkid=97823 --nodiscover --authrpc.jwtsecret=config/jwtsecret --authrpc.addr=0.0.0.0 --authrpc.port=8551  --verbosity=5

@@ -1,4 +1,5 @@
 /data/.*
+/data/**/.*
 /data/geth/nodes/000002.ldb
 /data/geth/lightchaindata/000002.log
 /data/geth/nodes/000005.ldb
