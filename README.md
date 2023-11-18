@@ -17,3 +17,24 @@
    - 用prysm工具将私钥 生成validator钱包
    - 用ethereal 工具执行质押合约
 - 启动validator等待eth beannode 和dou chain 同步，等待validator被激活。
+
+##目录说明
+- config 项目配置文件静态文件。
+  - direct 放置validator的账号
+  - keystore 是eth账号
+  - validator_keys 质押数据和私钥
+  - account_password 解密keystore的密码
+  - config.yml beacon 配置文件
+  - config_deposit.yml 是生成质押合约的配置文件
+  - genesis.json 是原始的创世文件。
+  - geth_password.txt 解密keystore的密码
+  - jwtsecret beacon和eth 交互的密码
+  - mnemonic.txt 是生成质押合约和私钥的助记词
+  - sk.json
+  - wallet_password.txt validator的钱包密码
+- data 存放geth beacon validator 数据
+- ethereal 调用geth客户端执行质押合约工具
+- ethpos-docker 部署测试网络脚本
+- go-ethereum geth源码使用branch v1.13.4
+- prysm beacon 和validator 源码使用 branch release-v4.1.1
+- staking-deposit-cli  生成质押合约和相关密钥
