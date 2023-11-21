@@ -10,6 +10,3 @@
 [submodule "ethereal"]
 	path = ethereal
 	url = https://github.com/dachengcheng2022/ethereal
-[submodule "genesis-ethpos-docker"]
-	path = genesis-ethpos-docker
-	url = git@github.com:happycoder2023/genesis-ethpos-docker.git
