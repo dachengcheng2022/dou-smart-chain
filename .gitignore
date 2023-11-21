@@ -1,2 +1,17 @@
 /data/.*
 /data/**/
+/bootnode
+/data/genesis.ssz
+/data/network-keys
+/.idea/modules.xml
+/.idea/markdown.xml
+/config/direct/validator.db
+/.idea/vcs.xml
+/config/direct/accounts/all-accounts.keystore.json
+/config/bnode.key
+/config/validator_keys/deposit_data-1700294788.json
+/.idea/dou-smart-chain.iml
+/config/enode.key
+/config/validator_keys/keystore-m_12381_3600_0_0_0-1700294784.json
+/config/validator_keys/keystore-m_12381_3600_1_0_0-1700294785.json
+/config/validator_keys/keystore-m_12381_3600_2_0_0-1700294786.json

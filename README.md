@@ -45,3 +45,13 @@
 - go-ethereum geth源码使用branch v1.13.4
 - prysm beacon 和validator 源码使用 branch release-v4.1.1
 - staking-deposit-cli  生成质押合约和相关密钥
+
+
+#项目说明
+添加子模块：git submodule add <path>
+拉取项目：  git clone <path>    
+拉取子模块：git submodule update --init --recursive
+删除子模块： 
+git submodule deinit -f submodule
+git rm -f <子模块路径>
+rm -rf .git/modules/<子模块路径>
