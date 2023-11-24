@@ -12,6 +12,4 @@
 /config/validator_keys/deposit_data-1700294788.json
 /.idea/dou-smart-chain.iml
 /config/enode.key
-/config/validator_keys/keystore-m_12381_3600_0_0_0-1700294784.json
-/config/validator_keys/keystore-m_12381_3600_1_0_0-1700294785.json
-/config/validator_keys/keystore-m_12381_3600_2_0_0-1700294786.json
+/config/validator_keys/.*
