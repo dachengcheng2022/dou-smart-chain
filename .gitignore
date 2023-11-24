@@ -14,3 +14,5 @@
 /config/enode.key
 /config/validator_keys/.*
 /config/validator_keys/
+/config/direct/
+/config/keystore_ignore/
