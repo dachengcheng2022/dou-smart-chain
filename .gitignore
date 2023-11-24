@@ -16,3 +16,12 @@
 /config/validator_keys/
 /config/direct/
 /config/keystore_ignore/
+/staking-deposit-cli/.idea/.gitignore
+/.idea/misc.xml
+/staking-deposit-cli/.idea/misc.xml
+/staking-deposit-cli/.idea/modules.xml
+/staking-deposit-cli/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/staking-deposit-cli/.idea/inspectionProfiles/Project_Default.xml
+/staking-deposit-cli/.idea/staking-deposit-cli.iml
+/staking-deposit-cli/.idea/vcs.xml
