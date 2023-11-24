@@ -13,3 +13,4 @@
 /.idea/dou-smart-chain.iml
 /config/enode.key
 /config/validator_keys/.*
+/config/validator_keys/
