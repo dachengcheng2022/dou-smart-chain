@@ -61,7 +61,6 @@
 #项目说明
 添加子模块：git submodule add <path>
 拉取项目：  git clone <path>    
-拉取子模块：git submodule update --init --recursive
 删除子模块： 
 git submodule deinit -f submodule
 git rm -f <子模块路径>

@@ -13,3 +13,6 @@
 [submodule "genesis-ethpos-docker"]
 	path = genesis-ethpos-docker
 	url = https://github.com/dachengcheng2022/genesis-ethpos-docker
+[submodule "deamon-ethpos-docker"]
+	path = deamon-ethpos-docker
+	url = git@github.com:dachengcheng2022/deamon-ethpos-docker.git
