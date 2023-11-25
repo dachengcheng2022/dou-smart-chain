@@ -25,4 +25,4 @@
 /staking-deposit-cli/.idea/inspectionProfiles/Project_Default.xml
 /staking-deposit-cli/.idea/staking-deposit-cli.iml
 /staking-deposit-cli/.idea/vcs.xml
-/go-ethereum/data/geth/chaindata/ancient/chain/receipts.0000.cdat
+/go-ethereum/data/**

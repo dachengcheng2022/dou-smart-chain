@@ -14,11 +14,12 @@
 - 修改代码文件：
   - eth： var MainnetBootnodes = []string{} 为上面节点
   - eth： MainnetChainConfig = &ChainConfig{}
-  - eth:  MainnetGenesisHash 
+  - eth:  MainnetGenesisHash
   - bnode: var mainnetBeaconConfig = &BeaconChainConfig{}
 
 - 链接默认初始节点启动剩下的6个geth 、beannode和validator。 docker_genesis_node_compose 启动6次
   - 生成默认的3个validator的质押合约和账号及密码。create_constract_key_store.sh
+  - 手动初始化enode data 和 bnode data。
   - 启动geth。start_enode.sh
   - 启动beacon。start_bnode.sh
   - 启动beacon。start_vnode.sh
