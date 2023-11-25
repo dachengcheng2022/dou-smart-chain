@@ -6,13 +6,23 @@
   - 老板提供地址修改genesis.json 的账号地址和合约地址
   - 生成默认的3个validator的质押合约和账号及密码。create_constract_key_store.sh
   - 初始化beacon 和geth 。clean_and_init.sh
-  - 启动geth。start_genesis_enode.sh (TODO 固定名称) fixture_test.go 生成enr私钥
-  - 启动beacon。start_genesis_bnode.sh(TODO 固定名称)
-  - 启动beacon。start_genesis_vnode.sh (TODO withdraw 地址配置)
-  - 制作docker_genesis_init_compose (TODO）
+  - 启动geth。start_genesis_enode.sh
+  - 启动beacon。start_genesis_bnode.sh
+  - 启动beacon。start_genesis_vnode.sh
+  - 制作docker_genesis_init_compose
   
-- 链接默认初始节点启动剩下的6个geth 、beannode和validator。 docker_genesis_node_compose 启动20次
-  - 
+- 修改代码文件：
+  - eth： var MainnetBootnodes = []string{} 为上面节点
+  - eth： MainnetChainConfig = &ChainConfig{}
+  - eth:  MainnetGenesisHash 
+  - bnode: var mainnetBeaconConfig = &BeaconChainConfig{}
+
+- 链接默认初始节点启动剩下的6个geth 、beannode和validator。 docker_genesis_node_compose 启动6次
+  - 生成默认的3个validator的质押合约和账号及密码。create_constract_key_store.sh
+  - 启动geth。start_enode.sh
+  - 启动beacon。start_bnode.sh
+  - 启动beacon。start_vnode.sh
+  - 制作docker_init_compose
 
 
 - 记录上面5个节点的geth 和 beannode的enr。
